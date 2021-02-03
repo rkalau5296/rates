@@ -1,10 +1,10 @@
 package external.api.nbp.client;
 
+import com.sun.org.slf4j.internal.Logger;
+import com.sun.org.slf4j.internal.LoggerFactory;
 import external.api.nbp.config.RateConfig;
 import external.api.nbp.model.RateCurrencyDto;
 import external.api.nbp.model.RateTableDto;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClientException;
